@@ -6,23 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    public class Precios <T>
+    public class Precios <T> where T : Precio01
     {
 
-        private T precio_producto01;
-
-        private T precios_promocion ;
+        private T Precio01f;
 
         public T Precio
         { 
-         get { return precio_producto01; }
-         set { precio_producto01 = value; }
+         get { return Precio01f; }
+         set { Precio01f = value; }
         }
 
-        public T PrecioPromocion
-        {
-            get { return precios_promocion; }
-            set { precios_promocion = value; }
-        }
     }
 }

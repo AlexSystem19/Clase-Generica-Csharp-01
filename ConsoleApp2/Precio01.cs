@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    public class listaprecios : Precio01
+    public class Precio01
     {
+        public int id {  get; set; }
+        public string nombre_producto { get; set; }
     }
 }
