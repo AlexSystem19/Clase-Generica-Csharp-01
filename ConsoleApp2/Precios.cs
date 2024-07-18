@@ -11,10 +11,18 @@ namespace ConsoleApp2
 
         private T precio_producto01;
 
+        private T precios_promocion ;
+
         public T Precio
         { 
          get { return precio_producto01; }
          set { precio_producto01 = value; }
+        }
+
+        public T PrecioPromocion
+        {
+            get { return precios_promocion; }
+            set { precios_promocion = value; }
         }
     }
 }

@@ -14,12 +14,21 @@ namespace ConsoleApp2
             precio_producto1.Precio = "6800 soles";
             Console.WriteLine(precio_producto1.Precio);
 
+            var precio_producto3 = new Precios<double>();
+            precio_producto3.Precio = 6890.70;
+            Console.WriteLine(precio_producto3.Precio);
+
 
             var precio_producto2 = new Precios<int>();
             precio_producto2.Precio = 6800;
             Console.WriteLine(precio_producto2.Precio);
-            Console.ReadLine();
+           
 
+            var precios_promocion01  = new Precios<double>();
+            double promocion01 = precios_promocion01.PrecioPromocion = Convert.ToDouble(Console.ReadLine());
+            double promocion = promocion01*3;
+            Console.WriteLine(promocion);
+            Console.ReadLine();
 
         }
     }
