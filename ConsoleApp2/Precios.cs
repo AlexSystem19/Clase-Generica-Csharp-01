@@ -8,6 +8,7 @@ namespace ConsoleApp2
 {
     public class Precios <T>
     {
+
         private T precio_producto01;
 
         public T Precio
