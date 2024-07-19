@@ -19,3 +19,6 @@ namespace ConsoleApp2
 
     }
 }
+
+
+// clase generica que solo acepta una clase

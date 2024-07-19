@@ -11,12 +11,15 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             var precio_producto1 = new Precios<listaprecios>();
-            precio_producto1.Precio = new Precio01
+            precio_producto1.Precio = new listaprecios
             {
                 id = 1,
-                nombre_producto = "A6"
+                nombre_producto = "alexis"
             };
 
+            Console.Write(precio_producto1.Precio.nombre_producto);
+            Console.WriteLine(precio_producto1.Precio.id);
+            Console.ReadLine();
 
         }
     }
