@@ -10,3 +10,5 @@ namespace ConsoleApp2
     {
     }
 }
+
+//clase que hereda para servir como puente
